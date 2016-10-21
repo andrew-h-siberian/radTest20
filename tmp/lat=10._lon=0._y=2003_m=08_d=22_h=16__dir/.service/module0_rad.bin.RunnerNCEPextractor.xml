@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><module>
+    <title>Extract data from NCEP structures</title>
+    <exec_name>rad.bin.RunnerNCEPextractor</exec_name>
+    <exec_type>java</exec_type>
+    <exec_md5_hash/>
+    <exec_path/>
+    <parameters>
+      <par name="ncep_parent_path" type="string">./NCEP</par>
+      <par name="NCEP_T_file_name_prefix" type="string">air</par>
+      <par name="NCEP_rhum_file_name_prefix" type="string">
+        rhum
+      </par>
+      <par name="NCEP_uwnd_file_name_prefix" type="string">
+        uwnd
+      </par>
+      <par name="NCEP_vwnd_file_name_prefix" type="string">
+        vwnd
+      </par>
+      <par name="time_mode" type="string">manual</par>
+      <par name="coordinatesListFile" type="string">
+        subTraceInfo.out
+      </par>
+      <par name="wrap_points" type="integer">9</par>
+      <par name="time_back" type="integer"> 168 </par>
+      <parCat nameCat="manual_par">
+        <split type="single">
+          <par name="lat" type="double">
+            10.
+          </par>
+          <end type="double">20.</end>
+          <step type="float">10.</step>
+        </split>
+
+        <split type="single">
+          <par name="lon" type="double">
+            0.
+          </par>
+          <end type="double">0.</end>
+          <step type="float">0.</step>
+        </split>
+
+        <split type="single">
+          <par name="y" type="integer">2003</par>
+          <end type="integer">2002</end>
+          <step type="integer">0</step>
+        </split>
+
+        <split type="single">
+          <par name="m" type="integer">08</par>
+          <end type="integer">09</end>
+          <step type="integer">0</step>
+        </split>
+
+        <split type="single">
+          <par name="d" type="integer">22</par>
+          <end type="integer">22</end>
+          <step type="integer">0</step>
+        </split>
+
+        <split type="single">
+          <par name="h" type="integer">16</par>
+          <end type="integer">22</end>
+          <step type="integer">4</step>
+        </split>
+
+      </parCat>
+
+      <comments>jan - 1</comments>
+      <comments>feb - 2</comments>
+      <comments>mar - 3</comments>
+      <comments>apr - 4</comments>
+      <comments>may - 5</comments>
+      <comments>jun - 6</comments>
+      <comments>jul - 7</comments>
+      <comments>aug - 8</comments>
+      <comments>sep - 9</comments>
+      <comments>oct - 10</comments>
+      <comments>nov - 11</comments>
+      <comments>dec - 12</comments>
+    </parameters>
+    <graphics type="gnuplot">
+      <script>
+        set dgrid3d 32,32,32 set style data lines splot
+        "air_gps.dat"
+      </script>
+    </graphics>
+
+  </module>

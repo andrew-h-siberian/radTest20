@@ -1,0 +1,287 @@
+2016 ��� 03 10:03:19,971 INFO  [rad.Main2] Main entry 1 with parameters: -Dlidar.data.file=resources/count-1.txt -Drun.par.file.path=resources/lidar.xml 
+2016 ��� 03 10:03:19,980 INFO  [rad.Main2] Resolved settings in conf.properties are:
+2016 ��� 03 10:03:19,981 INFO  [rad.Main2] debug.mode.flag = false
+2016 ��� 03 10:03:19,982 INFO  [rad.Main2] split.dir.path = 
+2016 ��� 03 10:03:19,982 INFO  [rad.Main2] worker.dir.name = res
+2016 ��� 03 10:03:19,983 INFO  [rad.Main2] model.cira86.name = CIRA86
+2016 ��� 03 10:03:19,983 INFO  [rad.Main2] data.dir.path = 
+2016 ��� 03 10:03:19,983 INFO  [rad.Main2] model.seebor.name = SEEBOR
+2016 ��� 03 10:03:19,984 INFO  [rad.Main2] run.iter.file.path = 
+2016 ��� 03 10:03:19,984 INFO  [rad.Main2] lidar.data.file = resources/count-1.txt
+2016 ��� 03 10:03:19,985 INFO  [rad.Main2] run.gui.flag = false
+2016 ��� 03 10:03:19,985 INFO  [rad.Main2] parent.model.path = D:\sci-pro\rad/models
+2016 ��� 03 10:03:19,986 INFO  [rad.Main2] gnuplot.bin.path = D:\sci-pro\rad/gnuplot/bin/wgnuplot_pipes.exe
+2016 ��� 03 10:03:19,986 INFO  [rad.Main2] data.file.path = 
+2016 ��� 03 10:03:19,987 INFO  [rad.Main2] add.time.flag = true
+2016 ��� 03 10:03:19,987 INFO  [rad.Main2] use.cash.flag = true
+2016 ��� 03 10:03:19,987 INFO  [rad.Main2] stay.chart.flag = true
+2016 ��� 03 10:03:19,987 INFO  [rad.Main2] model.afgl.name = AFGL
+2016 ��� 03 10:03:19,988 INFO  [rad.Main2] tmp.dir.name = tmp
+2016 ��� 03 10:03:19,988 INFO  [rad.Main2] run.par.file.path = resources/lidar.xml
+2016 ��� 03 10:03:19,988 INFO  [rad.Main2] browser.run.flag = false
+2016 ��� 03 10:03:19,988 INFO  [rad.Main2] run.par.dir.path = 
+2016 ��� 03 10:03:19,988 INFO  [rad.Main2] app.home.path = D:\sci-pro\rad
+2016 ��� 03 10:03:19,989 INFO  [rad.Main2] split.file.path = 
+2016 ��� 03 10:03:19,989 INFO  [rad.Main2] error.stop.flag = true
+2016 ��� 03 10:03:19,990 WARN  [rad.Main2] Property run.par.file.path is defined THAN Properties will be ignored:
+
+2016 ��� 03 10:03:19,990 WARN  [rad.Main2]  run.par.dir.path = 
+
+2016 ��� 03 10:03:19,991 WARN  [rad.Main2]  split.dir.path = 
+
+2016 ��� 03 10:03:20,053 INFO  [rad.Main2] 
+2016 ��� 03 10:03:20,148 INFO  [platform.ChargeRAD] Begin charging nodes for current worker
+2016 ��� 03 10:03:20,149 INFO  [platform.ChargeRAD] Running Computation Module: rad.bin.RunnerLoad
+2016 ��� 03 10:03:20,151 INFO  [rad.bin.Runner] Loading LIDAR signals
+2016 ��� 03 10:03:20,151 INFO  [rad.bin.Runner] rad.bin.RunnerLoad
+2016 ��� 03 10:03:20,540 WARN  [rad.bin.Runner] File not found in getFile(): signal.txt
+2016 ��� 03 10:03:20,540 INFO  [rad.bin.Runner] Sucsessfully Getting OutFile name for Mask File Name : signal.txt := signal.txt
+2016 ��� 03 10:03:20,687 INFO  [rad.bin.Runner] No graphics node, or graph node is empty
+2016 ��� 03 10:03:20,688 INFO  [platform.ChargeRAD] Running Computation Module: rad.bin.RunnerCorrect
+2016 ��� 03 10:03:20,689 INFO  [rad.bin.Runner] Correcting LIDAR signals
+2016 ��� 03 10:03:20,689 INFO  [rad.bin.Runner] rad.bin.RunnerCorrect
+2016 ��� 03 10:03:20,795 INFO  [rad.bin.Runner] Sucsessfully Getting OutFile name for Mask File Name : signal*.txt := signal.correct.txt
+2016 ��� 03 10:03:23,495 INFO  [rad.bin.Runner] Sucsessfully Getting OutFile name for Mask File Name : signal*.txt := signal.correct.txt
+2016 ��� 03 10:03:23,555 INFO  [platform.ChargeRAD] All nodes for current worker finished
+2016 мар 28 13:13:58,653 INFO  [rad.Main2] Main entry 1 with parameters: 
+2016 мар 28 13:13:58,699 INFO  [rad.Main2] Resolved settings in conf.properties are:
+2016 мар 28 13:13:58,703 INFO  [rad.Main2] ncep.year.step = 0
+2016 мар 28 13:13:58,704 INFO  [rad.Main2] add.time.flag = false
+2016 мар 28 13:13:58,704 INFO  [rad.Main2] error.stop.flag = true
+2016 мар 28 13:13:58,705 INFO  [rad.Main2] ncep.year = 2003
+2016 мар 28 13:13:58,705 INFO  [rad.Main2] ncep.year.end = 2002
+2016 мар 28 13:13:58,705 INFO  [rad.Main2] ncep.day.end = 22
+2016 мар 28 13:13:58,706 INFO  [rad.Main2] ncep.hour.end = 22
+2016 мар 28 13:13:58,706 INFO  [rad.Main2] ncep.month.step = 0
+2016 мар 28 13:13:58,707 INFO  [rad.Main2] split.dir.path = tmp/split
+2016 мар 28 13:13:58,707 INFO  [rad.Main2] worker.dir.name = :split_name
+2016 мар 28 13:13:58,708 INFO  [rad.Main2] gnuplot.bin.path = C:\Users\Vladislav\IdeaProjects\rad/gnuplot/bin/wgnuplot_pipes.exe
+2016 мар 28 13:13:58,709 INFO  [rad.Main2] app.home.path = C:\Users\Vladislav\IdeaProjects\rad
+2016 мар 28 13:13:58,709 INFO  [rad.Main2] use.cash.flag = true
+2016 мар 28 13:13:58,709 INFO  [rad.Main2] target.lon.step = 0.
+2016 мар 28 13:13:58,710 INFO  [rad.Main2] run.par.file.path = resources/ncep2.xml
+2016 мар 28 13:13:58,710 INFO  [rad.Main2] target.lat.step = 10.
+2016 мар 28 13:13:58,710 INFO  [rad.Main2] run.gui.flag = false
+2016 мар 28 13:13:58,711 INFO  [rad.Main2] parent.model.path = models
+2016 мар 28 13:13:58,711 INFO  [rad.Main2] ncep.hour = 16
+2016 мар 28 13:13:58,712 INFO  [rad.Main2] tmp.dir.name = ./tmp
+2016 мар 28 13:13:58,712 INFO  [rad.Main2] ncep.month.end = 09
+2016 мар 28 13:13:58,712 INFO  [rad.Main2] browser.run.flag = false
+2016 мар 28 13:13:58,713 INFO  [rad.Main2] data.file.path = 
+2016 мар 28 13:13:58,713 INFO  [rad.Main2] model.seebor.name = SEEBOR
+2016 мар 28 13:13:58,714 INFO  [rad.Main2] debug.mode.flag = false
+2016 мар 28 13:13:58,714 INFO  [rad.Main2] target.lon.end = 0.
+2016 мар 28 13:13:58,714 INFO  [rad.Main2] target.lat.begin = 10.
+2016 мар 28 13:13:58,715 INFO  [rad.Main2] ncep.hour.step = 4
+2016 мар 28 13:13:58,715 INFO  [rad.Main2] run.par.dir.path = tmp/split
+2016 мар 28 13:13:58,715 INFO  [rad.Main2] ncep.day = 22
+2016 мар 28 13:13:58,716 INFO  [rad.Main2] target.lon.begin = 0.
+2016 мар 28 13:13:58,716 INFO  [rad.Main2] ncep.wrap.points = 9
+2016 мар 28 13:13:58,717 INFO  [rad.Main2] model.cira86.name = CIRA86
+2016 мар 28 13:13:58,718 INFO  [rad.Main2] split.file.path = 
+2016 мар 28 13:13:58,718 INFO  [rad.Main2] target.lat.end = 20.
+2016 мар 28 13:13:58,719 INFO  [rad.Main2] stay.chart.flag = false
+2016 мар 28 13:13:58,719 INFO  [rad.Main2] model.afgl.name = AFGL
+2016 мар 28 13:13:58,720 INFO  [rad.Main2] data.dir.path = 
+2016 мар 28 13:13:58,720 INFO  [rad.Main2] ncep.path = ./NCEP
+2016 мар 28 13:13:58,720 INFO  [rad.Main2] run.iter.file.path = resources/Surface+RSTAR+CAS.xml
+2016 мар 28 13:13:58,721 INFO  [rad.Main2] ncep.day.step = 0
+2016 мар 28 13:13:58,721 INFO  [rad.Main2] ncep.month = 08
+2016 мар 28 13:13:58,722 WARN  [rad.Main2] Property run.par.file.path is defined THAN Properties will be ignored:
+
+2016 мар 28 13:13:58,740 WARN  [rad.Main2]  run.par.dir.path = tmp/split
+
+2016 мар 28 13:13:58,741 WARN  [rad.Main2]  split.dir.path = tmp/split
+
+2016 мар 28 13:13:59,892 INFO  [rad.Main2] 
+2016 мар 28 13:14:00,236 INFO  [platform.ChargeRAD] Begin charging nodes for current worker
+2016 мар 28 13:14:00,244 INFO  [platform.ChargeRAD] Running Computation Module: rad.bin.RunnerNCEPextractor
+2016 мар 28 13:14:00,271 INFO  [rad.bin.Runner] Extract data from NCEP structures
+2016 мар 28 13:14:00,271 INFO  [rad.bin.Runner] rad.bin.RunnerNCEPextractor
+2016 мар 28 13:14:00,432 WARN  [rad.bin.Runner] File not found in getFile(): C:\Users\Vladislav\IdeaProjects\rad\.\tmp\lat=10._lon=0._y=2003_m=08_d=22_h=16__dir/time.dat
+2016 мар 28 13:14:00,432 INFO  [rad.bin.Runner] Sucsessfully Getting OutFile name for Mask File Name : C:\Users\Vladislav\IdeaProjects\rad\.\tmp\lat=10._lon=0._y=2003_m=08_d=22_h=16__dir/time.dat := C:\Users\Vladislav\IdeaProjects\rad\.\tmp\lat=10._lon=0._y=2003_m=08_d=22_h=16__dir/time.dat
+2016 мар 28 13:14:00,474 WARN  [ucar.nc2.NetcdfFile] Cant load class: java.lang.ClassNotFoundException: ucar.grib.grib1.Grib1Input
+2016 мар 28 13:14:00,475 WARN  [ucar.nc2.NetcdfFile] Cant load class: java.lang.ClassNotFoundException: ucar.grib.grib2.Grib2Input
+2016 мар 28 13:14:00,475 WARN  [ucar.nc2.NetcdfFile] Cant load class: java.lang.ClassNotFoundException: ucar.bufr.BufrInput
+2016 мар 28 13:14:00,496 FATAL [rad.bin.RunnerMeteoCIRRAsubTrace] java.io.FileNotFoundException: .\NCEP\air.2003.nc (Системе не удается найти указанный путь)
+2016 мар 28 13:14:00,496 FATAL [rad.bin.RunnerMeteoCIRRAsubTrace] java.io.RandomAccessFile.open(Native Method)
+rad.bin.RunnerNCEPextractor.getNCEPfile(RunnerNCEPextractor.java:1158)
+rad.bin.RunnerNCEPextractor.getMomentArray(RunnerNCEPextractor.java:1079)
+rad.bin.RunnerNCEPextractor.runModule(RunnerNCEPextractor.java:237)
+
+2016 мар 28 13:14:00,511 FATAL [platform.ChargeRAD] Error encountered, launching stopped
+2016 мар 28 13:14:00,512 INFO  [platform.ChargeRAD] All nodes for current worker finished
+2016 мар 29 11:46:24,357 INFO  [rad.Main2] Main entry 1 with parameters: -Dlidar.data.file=resources/count1.txt -Drun.par.file.path=resources/lidar.xml 
+2016 мар 29 11:46:24,667 INFO  [rad.Main2] Resolved settings in conf.properties are:
+2016 мар 29 11:46:24,704 INFO  [rad.Main2] debug.mode.flag = false
+2016 мар 29 11:46:24,704 INFO  [rad.Main2] split.dir.path = 
+2016 мар 29 11:46:24,705 INFO  [rad.Main2] worker.dir.name = res
+2016 мар 29 11:46:24,705 INFO  [rad.Main2] model.cira86.name = CIRA86
+2016 мар 29 11:46:24,705 INFO  [rad.Main2] data.dir.path = 
+2016 мар 29 11:46:24,706 INFO  [rad.Main2] model.seebor.name = SEEBOR
+2016 мар 29 11:46:24,706 INFO  [rad.Main2] run.iter.file.path = 
+2016 мар 29 11:46:24,707 INFO  [rad.Main2] lidar.data.file = resources/count1.txt
+2016 мар 29 11:46:24,707 INFO  [rad.Main2] run.gui.flag = false
+2016 мар 29 11:46:24,708 INFO  [rad.Main2] parent.model.path = C:\Users\Vladislav\IdeaProjects\rad/models
+2016 мар 29 11:46:24,708 INFO  [rad.Main2] gnuplot.bin.path = C:\Users\Vladislav\IdeaProjects\rad/gnuplot/bin/wgnuplot_pipes.exe
+2016 мар 29 11:46:24,709 INFO  [rad.Main2] data.file.path = 
+2016 мар 29 11:46:24,709 INFO  [rad.Main2] add.time.flag = true
+2016 мар 29 11:46:24,710 INFO  [rad.Main2] use.cash.flag = true
+2016 мар 29 11:46:24,710 INFO  [rad.Main2] stay.chart.flag = true
+2016 мар 29 11:46:24,710 INFO  [rad.Main2] model.afgl.name = AFGL
+2016 мар 29 11:46:24,711 INFO  [rad.Main2] tmp.dir.name = tmp
+2016 мар 29 11:46:24,711 INFO  [rad.Main2] run.par.file.path = resources/lidar.xml
+2016 мар 29 11:46:24,711 INFO  [rad.Main2] browser.run.flag = false
+2016 мар 29 11:46:24,712 INFO  [rad.Main2] run.par.dir.path = 
+2016 мар 29 11:46:24,712 INFO  [rad.Main2] app.home.path = C:\Users\Vladislav\IdeaProjects\rad
+2016 мар 29 11:46:24,713 INFO  [rad.Main2] split.file.path = 
+2016 мар 29 11:46:24,713 INFO  [rad.Main2] error.stop.flag = true
+2016 мар 29 11:46:24,715 WARN  [rad.Main2] Property run.par.file.path is defined THAN Properties will be ignored:
+
+2016 мар 29 11:46:24,716 WARN  [rad.Main2]  run.par.dir.path = 
+
+2016 мар 29 11:46:24,717 WARN  [rad.Main2]  split.dir.path = 
+
+2016 мар 29 11:46:25,275 INFO  [rad.Main2] 
+2016 мар 29 11:46:25,728 INFO  [platform.ChargeRAD] Begin charging nodes for current worker
+2016 мар 29 11:46:25,746 INFO  [platform.ChargeRAD] Running Computation Module: rad.bin.RunnerLoad
+2016 мар 29 11:46:25,748 INFO  [rad.bin.Runner] Loading LIDAR signals
+2016 мар 29 11:46:25,748 INFO  [rad.bin.Runner] rad.bin.RunnerLoad
+2016 мар 29 11:46:26,002 FATAL [rad.bin.RunnerLoad] java.io.FileNotFoundException: resources\count1.txt (Не удается найти указанный файл)
+2016 мар 29 11:46:26,020 FATAL [platform.ChargeRAD] Error encountered, launching stopped
+2016 мар 29 11:46:26,020 INFO  [platform.ChargeRAD] All nodes for current worker finished
+2016 мар 29 11:47:09,434 INFO  [rad.Main2] Main entry 1 with parameters: -Dlidar.data.file=resources/count-1.txt -Drun.par.file.path=resources/lidar.xml 
+2016 мар 29 11:47:09,541 INFO  [rad.Main2] Resolved settings in conf.properties are:
+2016 мар 29 11:47:09,544 INFO  [rad.Main2] debug.mode.flag = false
+2016 мар 29 11:47:09,544 INFO  [rad.Main2] split.dir.path = 
+2016 мар 29 11:47:09,545 INFO  [rad.Main2] worker.dir.name = res
+2016 мар 29 11:47:09,545 INFO  [rad.Main2] model.cira86.name = CIRA86
+2016 мар 29 11:47:09,545 INFO  [rad.Main2] data.dir.path = 
+2016 мар 29 11:47:09,546 INFO  [rad.Main2] model.seebor.name = SEEBOR
+2016 мар 29 11:47:09,546 INFO  [rad.Main2] run.iter.file.path = 
+2016 мар 29 11:47:09,547 INFO  [rad.Main2] lidar.data.file = resources/count-1.txt
+2016 мар 29 11:47:09,547 INFO  [rad.Main2] run.gui.flag = false
+2016 мар 29 11:47:09,548 INFO  [rad.Main2] parent.model.path = C:\Users\Vladislav\IdeaProjects\rad/models
+2016 мар 29 11:47:09,548 INFO  [rad.Main2] gnuplot.bin.path = C:\Users\Vladislav\IdeaProjects\rad/gnuplot/bin/wgnuplot_pipes.exe
+2016 мар 29 11:47:09,549 INFO  [rad.Main2] data.file.path = 
+2016 мар 29 11:47:09,549 INFO  [rad.Main2] add.time.flag = true
+2016 мар 29 11:47:09,550 INFO  [rad.Main2] use.cash.flag = true
+2016 мар 29 11:47:09,550 INFO  [rad.Main2] stay.chart.flag = true
+2016 мар 29 11:47:09,550 INFO  [rad.Main2] model.afgl.name = AFGL
+2016 мар 29 11:47:09,551 INFO  [rad.Main2] tmp.dir.name = tmp
+2016 мар 29 11:47:09,551 INFO  [rad.Main2] run.par.file.path = resources/lidar.xml
+2016 мар 29 11:47:09,552 INFO  [rad.Main2] browser.run.flag = false
+2016 мар 29 11:47:09,552 INFO  [rad.Main2] run.par.dir.path = 
+2016 мар 29 11:47:09,552 INFO  [rad.Main2] app.home.path = C:\Users\Vladislav\IdeaProjects\rad
+2016 мар 29 11:47:09,553 INFO  [rad.Main2] split.file.path = 
+2016 мар 29 11:47:09,553 INFO  [rad.Main2] error.stop.flag = true
+2016 мар 29 11:47:09,554 WARN  [rad.Main2] Property run.par.file.path is defined THAN Properties will be ignored:
+
+2016 мар 29 11:47:09,554 WARN  [rad.Main2]  run.par.dir.path = 
+
+2016 мар 29 11:47:09,555 WARN  [rad.Main2]  split.dir.path = 
+
+2016 мар 29 11:47:09,890 INFO  [rad.Main2] 
+2016 мар 29 11:47:10,230 INFO  [platform.ChargeRAD] Begin charging nodes for current worker
+2016 мар 29 11:47:10,243 INFO  [platform.ChargeRAD] Running Computation Module: rad.bin.RunnerLoad
+2016 мар 29 11:47:10,245 INFO  [rad.bin.Runner] Loading LIDAR signals
+2016 мар 29 11:47:10,246 INFO  [rad.bin.Runner] rad.bin.RunnerLoad
+2016 мар 29 11:47:11,476 WARN  [rad.bin.Runner] File not found in getFile(): signal.txt
+2016 мар 29 11:47:11,476 INFO  [rad.bin.Runner] Sucsessfully Getting OutFile name for Mask File Name : signal.txt := signal.txt
+2016 мар 29 11:47:11,585 INFO  [rad.bin.Runner] No graphics node, or graph node is empty
+2016 мар 29 11:47:11,592 INFO  [platform.ChargeRAD] Running Computation Module: rad.bin.RunnerCorrect
+2016 мар 29 11:47:11,594 INFO  [rad.bin.Runner] Correcting LIDAR signals
+2016 мар 29 11:47:11,594 INFO  [rad.bin.Runner] rad.bin.RunnerCorrect
+2016 мар 29 11:47:11,881 INFO  [rad.bin.Runner] Sucsessfully Getting OutFile name for Mask File Name : signal*.txt := signal.correct.txt
+2016 мар 29 11:47:15,414 INFO  [rad.bin.Runner] Sucsessfully Getting OutFile name for Mask File Name : signal*.txt := signal.correct.txt
+2016 мар 29 11:47:18,920 INFO  [platform.ChargeRAD] All nodes for current worker finished
+2016 окт 03 07:02:17,768 INFO  [rad.Main2] Main entry 1 with parameters: -Dlidar.data.file=resources/count-1.txt -Drun.par.file.path=resources/lidar.xml 
+2016 окт 03 07:02:17,897 INFO  [rad.Main2] Resolved settings in conf.properties are:
+2016 окт 03 07:02:17,900 INFO  [rad.Main2] debug.mode.flag = false
+2016 окт 03 07:02:17,900 INFO  [rad.Main2] split.dir.path = 
+2016 окт 03 07:02:17,903 INFO  [rad.Main2] worker.dir.name = res
+2016 окт 03 07:02:17,904 INFO  [rad.Main2] model.cira86.name = CIRA86
+2016 окт 03 07:02:17,904 INFO  [rad.Main2] data.dir.path = 
+2016 окт 03 07:02:17,905 INFO  [rad.Main2] model.seebor.name = SEEBOR
+2016 окт 03 07:02:17,906 INFO  [rad.Main2] run.iter.file.path = 
+2016 окт 03 07:02:17,907 INFO  [rad.Main2] lidar.data.file = resources/count-1.txt
+2016 окт 03 07:02:17,908 INFO  [rad.Main2] run.gui.flag = false
+2016 окт 03 07:02:17,913 INFO  [rad.Main2] parent.model.path = D:\projects\rad_gradle\rad/models
+2016 окт 03 07:02:17,914 INFO  [rad.Main2] gnuplot.bin.path = D:\projects\rad_gradle\rad/gnuplot/bin/wgnuplot_pipes.exe
+2016 окт 03 07:02:17,914 INFO  [rad.Main2] data.file.path = 
+2016 окт 03 07:02:17,915 INFO  [rad.Main2] add.time.flag = true
+2016 окт 03 07:02:17,915 INFO  [rad.Main2] use.cash.flag = true
+2016 окт 03 07:02:17,915 INFO  [rad.Main2] stay.chart.flag = true
+2016 окт 03 07:02:17,916 INFO  [rad.Main2] model.afgl.name = AFGL
+2016 окт 03 07:02:17,916 INFO  [rad.Main2] tmp.dir.name = tmp
+2016 окт 03 07:02:17,916 INFO  [rad.Main2] run.par.file.path = resources/lidar.xml
+2016 окт 03 07:02:17,916 INFO  [rad.Main2] browser.run.flag = false
+2016 окт 03 07:02:17,917 INFO  [rad.Main2] run.par.dir.path = 
+2016 окт 03 07:02:17,917 INFO  [rad.Main2] app.home.path = D:\projects\rad_gradle\rad
+2016 окт 03 07:02:17,917 INFO  [rad.Main2] split.file.path = 
+2016 окт 03 07:02:17,918 INFO  [rad.Main2] error.stop.flag = true
+2016 окт 03 07:02:17,919 WARN  [rad.Main2] Property run.par.file.path is defined THAN Properties will be ignored:
+
+2016 окт 03 07:02:17,919 WARN  [rad.Main2]  run.par.dir.path = 
+
+2016 окт 03 07:02:17,919 WARN  [rad.Main2]  split.dir.path = 
+
+2016 окт 03 07:02:18,438 INFO  [rad.Main2] 
+2016 окт 03 07:02:18,617 INFO  [platform.ChargeRAD] Begin charging nodes for current worker
+2016 окт 03 07:02:18,618 INFO  [platform.ChargeRAD] Running Computation Module: rad.bin.RunnerLoad
+2016 окт 03 07:02:18,621 INFO  [rad.bin.Runner] Loading LIDAR signals
+2016 окт 03 07:02:18,623 INFO  [rad.bin.Runner] rad.bin.RunnerLoad
+2016 окт 03 07:02:19,120 WARN  [rad.bin.Runner] File not found in getFile(): signal.txt
+2016 окт 03 07:02:19,121 INFO  [rad.bin.Runner] Sucsessfully Getting OutFile name for Mask File Name : signal.txt := signal.txt
+2016 окт 03 07:02:19,166 INFO  [rad.bin.Runner] No graphics node, or graph node is empty
+2016 окт 03 07:02:19,168 INFO  [platform.ChargeRAD] Running Computation Module: rad.bin.RunnerCorrect
+2016 окт 03 07:02:19,169 INFO  [rad.bin.Runner] Correcting LIDAR signals
+2016 окт 03 07:02:19,169 INFO  [rad.bin.Runner] rad.bin.RunnerCorrect
+2016 окт 03 07:02:19,208 INFO  [rad.bin.Runner] Sucsessfully Getting OutFile name for Mask File Name : signal*.txt := signal.correct.txt
+2016 окт 03 07:02:21,780 INFO  [rad.bin.Runner] Sucsessfully Getting OutFile name for Mask File Name : signal*.txt := signal.correct.txt
+2016 окт 03 07:02:21,912 INFO  [platform.ChargeRAD] All nodes for current worker finished
+2016 окт 21 06:05:21,460 INFO  [rad.Main2] Main entry 1 with parameters: -Dlidar.data.file=resources/count-1.txt -Drun.par.file.path=resources/lidar.xml 
+2016 окт 21 06:05:21,471 INFO  [rad.Main2] Resolved settings in conf.properties are:
+2016 окт 21 06:05:21,473 INFO  [rad.Main2] debug.mode.flag = false
+2016 окт 21 06:05:21,474 INFO  [rad.Main2] split.dir.path = 
+2016 окт 21 06:05:21,474 INFO  [rad.Main2] worker.dir.name = res
+2016 окт 21 06:05:21,474 INFO  [rad.Main2] model.cira86.name = CIRA86
+2016 окт 21 06:05:21,475 INFO  [rad.Main2] data.dir.path = 
+2016 окт 21 06:05:21,475 INFO  [rad.Main2] model.seebor.name = SEEBOR
+2016 окт 21 06:05:21,476 INFO  [rad.Main2] run.iter.file.path = 
+2016 окт 21 06:05:21,476 INFO  [rad.Main2] lidar.data.file = resources/count-1.txt
+2016 окт 21 06:05:21,479 INFO  [rad.Main2] run.gui.flag = false
+2016 окт 21 06:05:21,480 INFO  [rad.Main2] parent.model.path = D:\Projects\IdeaProjects\rad_gradle\rad/models
+2016 окт 21 06:05:21,480 INFO  [rad.Main2] gnuplot.bin.path = D:\Projects\IdeaProjects\rad_gradle\rad/gnuplot/bin/wgnuplot_pipes.exe
+2016 окт 21 06:05:21,481 INFO  [rad.Main2] data.file.path = 
+2016 окт 21 06:05:21,481 INFO  [rad.Main2] add.time.flag = true
+2016 окт 21 06:05:21,482 INFO  [rad.Main2] use.cash.flag = true
+2016 окт 21 06:05:21,483 INFO  [rad.Main2] stay.chart.flag = true
+2016 окт 21 06:05:21,485 INFO  [rad.Main2] model.afgl.name = AFGL
+2016 окт 21 06:05:21,486 INFO  [rad.Main2] tmp.dir.name = tmp
+2016 окт 21 06:05:21,488 INFO  [rad.Main2] run.par.file.path = resources/lidar.xml
+2016 окт 21 06:05:21,489 INFO  [rad.Main2] browser.run.flag = false
+2016 окт 21 06:05:21,489 INFO  [rad.Main2] run.par.dir.path = 
+2016 окт 21 06:05:21,490 INFO  [rad.Main2] app.home.path = D:\Projects\IdeaProjects\rad_gradle\rad
+2016 окт 21 06:05:21,490 INFO  [rad.Main2] split.file.path = 
+2016 окт 21 06:05:21,491 INFO  [rad.Main2] error.stop.flag = true
+2016 окт 21 06:05:21,492 WARN  [rad.Main2] Property run.par.file.path is defined THAN Properties will be ignored:
+
+2016 окт 21 06:05:21,492 WARN  [rad.Main2]  run.par.dir.path = 
+
+2016 окт 21 06:05:21,493 WARN  [rad.Main2]  split.dir.path = 
+
+2016 окт 21 06:05:21,592 INFO  [rad.Main2] 
+2016 окт 21 06:05:21,787 INFO  [platform.ChargeRAD] Begin charging nodes for current worker
+2016 окт 21 06:05:21,790 INFO  [platform.ChargeRAD] Running Computation Module: rad.bin.RunnerLoad
+2016 окт 21 06:05:21,795 INFO  [rad.bin.Runner] Loading LIDAR signals
+2016 окт 21 06:05:21,795 INFO  [rad.bin.Runner] rad.bin.RunnerLoad
+2016 окт 21 06:05:22,339 WARN  [rad.bin.Runner] File not found in getFile(): signal.txt
+2016 окт 21 06:05:22,339 INFO  [rad.bin.Runner] Sucsessfully Getting OutFile name for Mask File Name : signal.txt := signal.txt
+2016 окт 21 06:05:22,428 INFO  [rad.bin.Runner] No graphics node, or graph node is empty
+2016 окт 21 06:05:22,430 INFO  [platform.ChargeRAD] Running Computation Module: rad.bin.RunnerCorrect
+2016 окт 21 06:05:22,448 INFO  [rad.bin.Runner] Correcting LIDAR signals
+2016 окт 21 06:05:22,448 INFO  [rad.bin.Runner] rad.bin.RunnerCorrect
+2016 окт 21 06:05:22,500 INFO  [rad.bin.Runner] Sucsessfully Getting OutFile name for Mask File Name : signal*.txt := signal.correct.txt
+2016 окт 21 06:05:26,690 INFO  [rad.bin.Runner] Sucsessfully Getting OutFile name for Mask File Name : signal*.txt := signal.correct.txt
+2016 окт 21 06:05:26,724 INFO  [platform.ChargeRAD] All nodes for current worker finished

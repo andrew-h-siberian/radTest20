@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="rad" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/build/classes/main" />
+    <output-test url="file://$MODULE_DIR$/build/classes/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Gradle: commons-io-1.2">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-io-1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/commons-io-1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/commons-io-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: netcdfUI-2.2.18">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/netcdfUI-2.2.18.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/netcdfUI-2.2.18.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/netcdfUI-2.2.18.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: nlog4j-1.2.21">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/nlog4j-1.2.21.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/nlog4j-1.2.21.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/nlog4j-1.2.21.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: rad272">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/rad272.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/rad272.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/rad272.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: serializer">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/serializer.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/serializer.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/serializer.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: xalan">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/xalan.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/xalan.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/xalan.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+  </component>
+</module>
